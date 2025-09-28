@@ -1,7 +1,6 @@
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import { Download, Code, Brain, Palette, BarChart3 } from 'lucide-react';
-import profileImage from '@/assets/profile-hrithika.jpg';
 
 const About = () => {
   const interests = [
@@ -37,20 +36,8 @@ const About = () => {
           <div className="w-24 h-1 bg-gradient-primary mx-auto mb-8"></div>
         </div>
         
-        <div className="grid lg:grid-cols-2 gap-12 items-center">
+        <div className="max-w-4xl mx-auto">
           <div className="animate-fade-up">
-            <div className="relative">
-              <img
-                src={profileImage}
-                alt="Namburi Hrithika"
-                className="w-80 h-80 rounded-2xl mx-auto shadow-strong hover-glow object-cover"
-              />
-              <div className="absolute -bottom-6 -right-6 w-24 h-24 bg-gradient-secondary rounded-full opacity-80"></div>
-              <div className="absolute -top-6 -left-6 w-16 h-16 bg-gradient-primary rounded-full opacity-60"></div>
-            </div>
-          </div>
-          
-          <div className="animate-fade-up" style={{ animationDelay: '0.2s' }}>
             <h3 className="text-2xl md:text-3xl font-semibold mb-6 text-foreground">
               Hello! I'm Hrithika
             </h3>
